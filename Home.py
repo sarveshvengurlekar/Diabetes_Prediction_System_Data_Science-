@@ -118,7 +118,7 @@ st.markdown(
 
 
 
-st.link_button("Predict Diabetes", "https://streamlit.io/gallery", use_container_width=True)
+st.link_button("Predict Diabetes", "https://diabetespredictionsystemds.streamlit.app/Diabetes_Predictor", use_container_width=True)
 
 st.header("")
 
