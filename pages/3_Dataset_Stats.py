@@ -104,7 +104,7 @@ st.markdown(
 - Number of times the patient has been pregnant.  
 - Higher counts may indicate increased risk due to hormonal and metabolic changes.
 """)
-st.image(r"media\dataset_stats\preg_pdf.png")
+st.image("media/dataset_stats/preg_pdf.png")
 
 st.markdown("""
 ### 🔹 Glucose
