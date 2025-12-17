@@ -111,50 +111,50 @@ st.markdown("""
 - Plasma glucose concentration measured two hours after an oral glucose tolerance test.  
 - One of the most important predictors of diabetes; higher values typically correlate with diabetic outcomes.
 """)
-st.image(r"media\dataset_stats\glu_pdf.png")
-st.image(r"media\dataset_stats\glu_dist.png")
+st.image("media/dataset_stats/glu_pdf.png")
+st.image("media/dataset_stats/glu_dist.png")
 
 st.markdown("""
 ### 🔹 BloodPressure
 - Diastolic blood pressure (mm Hg).  
 - Chronic high or low blood pressure can be associated with metabolic health issues.
 """)
-st.image(r"media\dataset_stats\bp_pdf.png")
+st.image("media/dataset_stats/bp_pdf.png")
 
 st.markdown("""
 ### 🔹 SkinThickness
 - Triceps skinfold thickness (mm), indicating subcutaneous fat.  
 - Used as a proxy for body fat; may influence insulin resistance.
 """)
-st.image(r"media\dataset_stats\sk_pdf.png")
+st.image("media/dataset_stats/sk_pdf.png")
 
 st.markdown("""
 ### 🔹 Insulin
 - 2-hour serum insulin (IU/mL) after glucose intake.  
 - High variability and zero values indicate missing data or abnormal insulin response.
 """)
-st.image(r"media\dataset_stats\insulin_pdf.png")
+st.image("media/dataset_stats/insulin_pdf.png")
 
 st.markdown("""
 ### 🔹 BMI
 - Body Mass Index (weight in kg ÷ height in m²).  
 - Elevated BMI is a strong risk factor for type 2 diabetes.
 """)
-st.image(r"media\dataset_stats\bmi_pdf.png")
+st.image("media/dataset_stats/bmi_pdf.png")
 
 st.markdown("""
 ### 🔹 DiabetesPedigreeFunction
 - Represents genetic predisposition based on family history of diabetes.  
 - Higher values suggest a stronger hereditary risk.
 """)
-st.image(r"media\dataset_stats\pedi_pdf.png")
+st.image("media/dataset_stats/pedi_pdf.png")
 
 st.markdown("""
 ### 🔹 Age
 - Age of the patient in years.  
 - Diabetes risk increases with age, especially after the mid-30s.
 """)
-st.image(r"media/dataset_stats/age_pdf.png")
+st.image("media/dataset_stats/age_pdf.png")
 
 st.markdown("""
 ### 🔹 Outcome
@@ -162,7 +162,7 @@ st.markdown("""
 - Used as the ground truth label for model training and evaluation.
     """
 )
-st.image(r"media\dataset_stats\age_pdf.png")
+st.image("media/dataset_stats/age_pdf.png")
 
 st.markdown("""
 ### 🔹 Correlation
@@ -170,5 +170,5 @@ st.markdown("""
 - It can find high impact parameters.
     """
 )
-st.image(r"media\dataset_stats\correlate.png")
+st.image("media/dataset_stats/correlate.png")
 
