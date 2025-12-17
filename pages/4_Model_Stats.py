@@ -96,7 +96,7 @@ Regression plays a crucial role in data science as it enables:
 )
 
 st.subheader(" Logistic Regression")
-st.image(r"media\model_stats\logi_reg.png")
+st.image("media/model_stats/logi_reg.png")
 st.markdown(
     """
 **Logistic Regression** is a supervised machine learning algorithm used for 
@@ -142,10 +142,10 @@ st.markdown(
 )
 
 st.subheader(" Confusion Matrix")
-st.image(r"media\model_stats\confusion_mat.png")
+st.image(r"media/model_stats/confusion_mat.png")
 
 st.subheader(" Model Evaluation")
-st.image(r"media\model_stats\model_eval.png")
+st.image(r"media/model_stats/model_eval.png")
 
 st.subheader(" ROC Curve")
-st.image(r"media\model_stats\roc_curve.png")
+st.image(r"media/model_stats/roc_curve.png")
