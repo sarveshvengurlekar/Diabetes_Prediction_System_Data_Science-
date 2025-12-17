@@ -145,7 +145,6 @@ st.markdown(
 if st.button("Predict"):
     input_data = np.array([[pregnancies, glucose, blood_pressure, skin_thickness, insulin, bmi, dpf, age]])
     prediction = model.predict(input_data)
-    st.write(prediction)
     # Custom CSS for large, alarming alerts
     # Prediction result
     if prediction[0] == 1:
@@ -156,3 +155,6 @@ if st.button("Predict"):
         st.markdown(
             "<div class='alert-box safe'>✅ LOW RISK: DIABETES NOT LIKELY</div>",
             unsafe_allow_html=True)
+
+
+st.write()
