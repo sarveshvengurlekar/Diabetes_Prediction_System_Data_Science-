@@ -128,3 +128,7 @@ st.write({
     }
     })
 
+st.write("###  - API Testing")
+st.write("""
+- Go to /docs after API URL to test API using Swagger""")
+
